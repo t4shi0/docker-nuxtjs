@@ -17,7 +17,7 @@ docker-compose build
 コンテナ内のコマンドをexec使わず叩く
 (docker-compose run --rm <コンテナ名> <コマンド>)
 ```shell
-docker-compose run --rm nuxt npx create-nuxt-app 
+docker-compose run --rm nuxt npx create-nuxt-app nuxt_project
 ```
 コンテナ立ち上げ
 ```shell
