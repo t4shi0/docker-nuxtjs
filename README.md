@@ -2,7 +2,7 @@
 
 ## 参考url
 
-[docker で nuxt.js を開発環境を建てるだけ : Qiita](https://qiita.com/kitsuki00/items/ed51dbb254bcc6c94fbd)
+[docker で nuxt.js を開発環境をたてるだけ : Qiita](https://qiita.com/kitsuki00/items/ed51dbb254bcc6c94fbd)
 
 [NUXTJS](https://ja.nuxtjs.org/)
 
