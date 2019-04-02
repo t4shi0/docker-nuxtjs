@@ -27,9 +27,21 @@ docker-compose up -d
 ```shell
 docker-compose ps
 ```
-ブラウザ起動
+コンテナ内に入る
 
-localhost:8080
+```
+docker exec -it nextjs /bin/ash
+
+cd nuxt_project　// ディレクトリ移動
+
+npm run dev //実行
+
+localhost:3000 // ブラウザでひらく
+
+ctrl + c で終了
+
+exit コンテナから出る
+```
 
 コンテナ　終了
 ```shell
