@@ -6,6 +6,7 @@ WORKDIR /app
 RUN npm install ---save nuxt
 
 # ホストがlinuxの場合のみownerがrootになるので対策（1000はホストubuntu uid）
+# mac windowsは必要なし
 USER 1000
 
 ENV HOST 0.0.0.0
