@@ -5,16 +5,16 @@ services:
     # Dockerfileの場所指定 (ホストの./docker/nuxtjs配下を指定)
     build: ./docker/nuxtjs
 
-    container_name: nextjs
+    container_name: nuxtjs
 
     # Dockerのコンテナを起動したままにする(これがないと起動後すぐ終了してしまいます。)
     tty: true
-    # command: npm run dev
 
     # コンテナの/appとホストディレクトリの./appを同期(ホストのapp配下でコンテナの/appを書き換えできます)
     volumes:
       - ./app:/app
 
-    # コンテナのport3000にhostの8080からアクセスする設定
+    # コンテナのport3000にhostの3000からアクセスする設定
     ports:
       - "3000:3000"
+
