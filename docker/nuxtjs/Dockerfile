@@ -3,7 +3,7 @@ FROM node:lts-alpine
 
 WORKDIR /app
 
-RUN npm install ---save nuxt
+RUN npm install --save-dev nuxt
 
 # ホストがlinuxの場合のみownerがrootになるので対策（1000はホストubuntu uid）
 # mac windowsは必要なし
