@@ -1,4 +1,4 @@
-# docker で nuxt.js 開発環境
+# docker で nuxt.js 開発環境(ubuntu, docker for windowsで起動確認)
 
 ## 参考url
 
