@@ -1,11 +1,13 @@
 version: '3'
 
 services:
+  # docker run で叩くサービス名
   nuxt:
+    image: nuxt_img
     # Dockerfileの場所指定 (ホストの./docker/nuxtjs配下を指定)
     build: ./docker/nuxtjs
 
-    container_name: nuxtjs
+    container_name: nuxt_container
 
     # Dockerのコンテナを起動したままにする(これがないと起動後すぐ終了してしまいます。)
     tty: true
@@ -17,4 +19,5 @@ services:
     # コンテナのport3000にhostの3000からアクセスする設定
     ports:
       - "3000:3000"
+      - "3001:3001"
 

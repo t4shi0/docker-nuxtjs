@@ -15,7 +15,7 @@ docker-compose build
 ```
 
 コンテナ内のコマンドをexec使わず叩く
-(docker-compose run --rm <コンテナ名> <コマンド>)
+(docker-compose run --rm <サービス名(nuxt)> <コマンド>)
 ```shell
 docker-compose run --rm nuxt npx create-nuxt-app nuxt_project
 ```
@@ -30,7 +30,7 @@ docker-compose ps
 コンテナ内に入る
 
 ```
-docker exec -it nuxtjs /bin/ash
+docker exec -it nuxtjs /bin/sh
 
 cd nuxt_project　// ディレクトリ移動
 
