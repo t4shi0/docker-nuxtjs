@@ -30,7 +30,7 @@ docker-compose ps
 コンテナ内に入る
 
 ```
-docker exec -it nuxtjs /bin/sh
+docker exec -it nuxt_container /bin/sh
 
 cd nuxt_project　// ディレクトリ移動
 
